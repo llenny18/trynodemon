@@ -34,7 +34,7 @@ router.post('/login', function(request, response, next){
                     {
                         request.session.userID = data[count].userID;
 
-                        response.redirect("/home");
+                        response.redirect("/profile");
                     }
                     else
                     {
